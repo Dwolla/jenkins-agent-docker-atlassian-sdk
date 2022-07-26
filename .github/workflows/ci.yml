@@ -11,8 +11,8 @@ jobs:
     strategy:
       matrix:
         CORE_TAG:
-          - sha-d3e1fed-8u322-b06-jdk
-          - sha-d3e1fed-11.0.14.1_1-jdk
+          - 4.13.2-1-jdk8-7b03219
+          - 4.13.2-1-jdk11-7b03219
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
